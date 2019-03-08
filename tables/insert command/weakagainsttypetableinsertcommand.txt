@@ -1,0 +1,69 @@
+//normal type
+insert into weakagainsttype values(1,3);
+//fire type
+insert into weakagainsttype values(2,4);
+insert into weakagainsttype values(2,9);
+insert into weakagainsttype values(2,11);
+//fighting type
+insert into weakagainsttype values(3,5);
+insert into weakagainsttype values(3,10);
+insert into weakagainsttype values(3,18);
+//water type
+insert into weakagainsttype values(4,6);
+insert into weakagainsttype values(4,8);
+//flying type
+insert into weakagainsttype values(5,8);
+insert into weakagainsttype values(5,11);
+insert into weakagainsttype values(5,12);
+//grass type
+insert into weakagainsttype values(6,2);
+insert into weakagainsttype values(6,5);
+insert into weakagainsttype values(6,7);
+insert into weakagainsttype values(6,12);
+insert into weakagainsttype values(6,13);
+//poison type
+insert into weakagainsttype values(7,9);
+insert into weakagainsttype values(7,10);
+//electric type
+insert into weakagainsttype values(8,9);
+//ground type
+insert into weakagainsttype values(9,4);
+insert into weakagainsttype values(9,6);
+insert into weakagainsttype values(9,12);
+//psychic type
+insert into weakagainsttype values(10,13);
+insert into weakagainsttype values(10,15);
+insert into weakagainsttype values(10,16);
+//rock type
+insert into weakagainsttype values(11,3);
+insert into weakagainsttype values(11,4);
+insert into weakagainsttype values(11,6);
+insert into weakagainsttype values(11,9);
+insert into weakagainsttype values(11,17);
+//ice type
+insert into weakagainsttype values(12,2);
+insert into weakagainsttype values(12,3);
+insert into weakagainsttype values(12,11);
+insert into weakagainsttype values(12,17);
+//bug type
+insert into weakagainsttype values(13,2);
+insert into weakagainsttype values(13,5);
+insert into weakagainsttype values(13,11);
+//dragon type
+insert into weakagainsttype values(14,12);
+insert into weakagainsttype values(14,14);
+insert into weakagainsttype values(14,18);
+//ghost type
+insert into weakagainsttype values(15,15);
+insert into weakagainsttype values(15,16);
+//dark type
+insert into weakagainsttype values(16,3);
+insert into weakagainsttype values(16,13);
+insert into weakagainsttype values(16,18);
+//steel type
+insert into weakagainsttype values(17,2);
+insert into weakagainsttype values(17,3);
+insert into weakagainsttype values(17,9);
+//fairy type
+insert into weakagainsttype values(18,7);
+insert into weakagainsttype values(18,17);

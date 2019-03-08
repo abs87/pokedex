@@ -1,0 +1,102 @@
+//grass type
+insert into move values(1,'razor leaf',6,55,95,25);
+insert into move values(2,'vine whip',6,5,100,25);
+insert into move values(3,'solar beam',6,120,100,10);
+insert into move values(4,'giga drain',6,75,100,10);
+insert into move values(5,'frenzy plant',6,150,90,5);
+insert into move values(6,'leaf blade',6,90,100,15);\
+//fire type
+insert into move values(7,'ember',2,40,100,25);
+insert into move values(8,'flare blitz',2,120,100,15);
+insert into move values(9,'blue flare',2,130,85,5);
+insert into move values(10,'flamethrower',2,90,100,15);
+insert into move values(11,'fire blast',2,110,85,5);
+insert into move values(12,'blast burn',2,150,90,5);
+//water type
+insert into move values(13,'water gun',4,40,100,25);
+insert into move values(14,'waterspout',4,150,100,5);
+insert into move values(15,'hydro pump',4,110,80,5);
+insert into move values(16,'hydro cannon',4,150,90,5);
+insert into move values(17,'surf',4,90,100,15);
+insert into move values(18,'water shuriken',4,15,100,20);
+//electric type
+insert into move values(19,'thundershock',8,40,100,30);
+insert into move values(20,'plasma fists',8,100,100,15);
+insert into move values(21,'thunderbolt',8,90,100,15);
+insert into move values(22,'thunder',8,110,70,5);
+insert into move values(23,'volt tackle',8,120,100,15);
+insert into move values(24,'thunder punch',8,75,100,15);
+//psychic type
+insert into move values(25,'psychic',10,90,100,10);
+insert into move values(26,'confusion',10,50,100,25);
+insert into move values(27,'psybeam',10,65,100,20);
+insert into move values(28,'extrasensory',10,80,100,20);
+//ghost type
+insert into move values(29,'moongeist beam',15,100,100,5);
+insert into move values(30,'phantom force',15,90,100,10);
+insert into move values(31,'shadow ball',15,80,100,15);
+insert into move values(32,'shadow force',15,120,100,5);
+//dark type
+insert into move values(33,'bite',16,60,100,25);
+insert into move values(34,'crunch',16,80,100,15);
+insert into move values(35,'feint attack',16,60,100,20);
+insert into move values(36,'darkest lariat',16,85,100,10);
+//rock type
+insert into move values(37,'ancient power',11,60,100,5);
+insert into move values(38,'diamond storm',11,100,95,5);
+insert into move values(39,'rock tomb',11,60,95,15);
+insert into move values(40,'rollout',11,30,90,20);
+//ground type
+insert into move values(41,'dig',9,80,100,10);
+insert into move values(42,'earth power',9,90,100,10);
+insert into move values(43,'earthquake',9,100,100,10);
+insert into move values(44,'lands wrath',9,90,100,10);
+//fighting type
+insert into move values(45,'aura sphere',3,80,100,20);
+insert into move values(46,'brick break',3,75,100,15);
+insert into move values(47,'close combat',3,120,100,5);
+insert into move values(48,'cross chop',3,100,80,5);
+//normal type
+insert into move values(49,'body slam',1,85,100,15);
+insert into move values(50,'crush claw',1,75,95,10);
+insert into move values(51,'dizzy punch',1,70,100,10);
+insert into move values(52,'extremespeed',1,80,100,5);
+//bug type
+insert into move values(53,'fury cutter',13,40,95,20);
+insert into move values(54,'mega horn',13,120,85,10);
+insert into move values(55,'pin missile',13,25,95,20);
+insert into move values(56,'x-scissor',13,80,100,15);
+//dragon type
+insert into move values(57,'draco meteor',14,130,90,5);
+insert into move values(58,'dragon breath',14,60,100,20);
+insert into move values(59,'dragon claw',14,80,100,15);
+insert into move values(60,'outrage',14,120,100,10);
+insert into move values(61,'roar of time',14,150,90,5);
+insert into move values(62,'dragon tail',14,60,90,10);
+//ice type
+insert into move values(63,'aurora beam',12,65,100,20);
+insert into move values(64,'avalanche',12,60,100,10);
+insert into move values(65,'blizzard',12,110,70,5);
+insert into move values(66,'ice beam',12,90,100,10);
+insert into move values(67,'ice fang',12,65,95,15);
+insert into move values(68,'ice punch',12,75,100,15);
+//fairy type
+insert into move values(69,'dazling gleam',18,80,100,10);
+insert into move values(70,'draining kiss',18,50,100,10);
+insert into move values(71,'moonblast',18,95,100,15);
+insert into move values(72,'light of ruin',18,140,90,5);
+//flying type
+insert into move values(73,'aerial ace',5,60,100,20);
+insert into move values(74,'air slash',5,75,95,20);
+insert into move values(75,'brave bird',5,120,100,15);
+insert into move values(76,'draco ascent',5,120,100,5);
+//poison
+insert into move values(77,'acid',7,40,100,30);
+insert into move values(78,'poison jab',7,80,100,20);
+insert into move values(79,'poison fang',7,50,100,15);
+insert into move values(80,'sludge bomb',7,90,100,10);
+//steel
+insert into move values(81,'bullet punch',17,40,100,30);
+insert into move values(82,'iron tail',17,100,75,15);
+insert into move values(83,'iron head',17,80,100,15);
+insert into move values(84,'steel wing',17,70,90,25);

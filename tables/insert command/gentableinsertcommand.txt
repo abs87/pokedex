@@ -1,0 +1,7 @@
+insert into gen values(1,'kanto');
+insert into gen values(2,'johto');
+insert into gen values(3,'hoenn');
+insert into gen values(4,'sinnoh');
+insert into gen values(5,'unova');
+insert into gen values(6,'kalos');
+insert into gen values(7,'alola');

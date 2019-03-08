@@ -1,0 +1,70 @@
+//normal type
+insert into strongagainsttype values(1,1);
+//fire type
+insert into strongagainsttype values(2,6);
+insert into strongagainsttype values(2,12);
+insert into strongagainsttype values(2,13);
+insert into strongagainsttype values(2,17);
+//fighting type
+insert into strongagainsttype values(3,1);
+insert into strongagainsttype values(3,11);
+insert into strongagainsttype values(3,12);
+insert into strongagainsttype values(3,16);
+insert into strongagainsttype values(3,17);
+//water type
+insert into strongagainsttype values(4,2);
+insert into strongagainsttype values(4,9);
+insert into strongagainsttype values(4,11);
+//flying type
+insert into strongagainsttype values(5,3);
+insert into strongagainsttype values(5,6);
+insert into strongagainsttype values(5,13);
+//grass type
+insert into strongagainsttype values(6,4);
+insert into strongagainsttype values(6,9);
+insert into strongagainsttype values(6,11);
+//poison type
+insert into strongagainsttype values(7,6);
+insert into strongagainsttype values(7,18);
+//electric type
+insert into strongagainsttype values(8,4);
+insert into strongagainsttype values(8,5);
+//ground type
+insert into strongagainsttype values(9,2);
+insert into strongagainsttype values(9,7);
+insert into strongagainsttype values(9,8);
+insert into strongagainsttype values(9,11);
+insert into strongagainsttype values(9,17);
+//psychic type
+insert into strongagainsttype values(10,3);
+insert into strongagainsttype values(10,7);
+//rock type
+insert into strongagainsttype values(11,2);
+insert into strongagainsttype values(11,5);
+insert into strongagainsttype values(11,12);
+insert into strongagainsttype values(11,13);
+//ice type
+insert into strongagainsttype values(12,5);
+insert into strongagainsttype values(12,6);
+insert into strongagainsttype values(12,9);
+insert into strongagainsttype values(12,14);
+//bug type
+insert into strongagainsttype values(13,6);
+insert into strongagainsttype values(13,10);
+insert into strongagainsttype values(13,16);
+//dragon type
+insert into strongagainsttype values(14,14);
+//ghost type
+insert into strongagainsttype values(15,10);
+insert into strongagainsttype values(15,15);
+//dark type
+insert into strongagainsttype values(16,10);
+insert into strongagainsttype values(16,15);
+//steel type
+insert into strongagainsttype values(17,11);
+insert into strongagainsttype values(17,12);
+insert into strongagainsttype values(17,18);
+//fairy type
+insert into strongagainsttype values(18,3);
+insert into strongagainsttype values(18,14);
+insert into strongagainsttype values(18,16);

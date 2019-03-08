@@ -1,0 +1,13 @@
+CREATE TRIGGER beforeuserinsert BEFRORE INSERT ON users
+FOR EACH ROW
+SET NEW.fullname=CONCAT(NEW.firstname,' ',NEW.lastname);
+
+CREATE TRIGGER befroreuserupdate BEFORE UPDATE ON users
+FOR EACH ROW
+SET NEW.password=NEW.password;
+
+DELIMITER //
+CREATE PROCEDURE forinsert(username varchar(10))
+BEGIN
+      INSERT INTO userregistertime(username,registeredtime,registereddate) VALUES(username,now(),curdate());
+END//

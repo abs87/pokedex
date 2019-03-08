@@ -1,0 +1,119 @@
+create table gen
+(
+genid decimal(1),
+regionname varchar(6),
+primary key(genid)
+);
+
+create table type
+(
+typeid decimal(3),
+tname varchar(10),
+primary key(typeid)
+);
+
+create table pokemon
+(
+pokeid decimal(3),
+pokename varchar(20),
+height decimal(6,2),
+weight decimal(6,2),
+genid decimal(1),
+type1id decimal(3),
+type2id decimal(3),
+category varchar(10),
+primary key(pokeid),
+foreign key(type1id) references type(typeid) on delete cascade,
+foreign key(type2id) references type(typeid) on delete cascade,
+foreign key(genid) references gen(genid) on delete cascade
+);
+
+create table evolvechain
+(
+s1id decimal(3),
+s1evllvl decimal(3),
+s2id decimal(3),
+s2evllvl decimal(3),
+s3id decimal(3),
+primary key(s1id,s2id,s3id),
+foreign key(s1id) references pokemon(pokeid) on delete cascade,
+foreign key(s2id) references pokemon(pokeid) on delete cascade,
+foreign key(s3id) references pokemon(pokeid) on delete cascade
+);
+
+create table stats(
+pokeid decimal(3),
+hp decimal(3),
+attack decimal(3),
+defence decimal(3),
+spattack decimal(3),
+spdefence decimal(3),
+speed decimal(3),
+primary key(pokeid),
+foreign key(pokeid) references pokemon(pokeid) on delete cascade
+);
+
+create table move
+(
+mid decimal(3),
+mname varchar(20),
+mtypeid decimal(3),
+power decimal(3),
+accuracy decimal(3),
+pp decimal(2),
+primary key(mid),
+foreign key(mtypeid) references type(typeid) on delete cascade
+);
+
+create table strongagainsttype
+(
+typeid decimal(3),
+strongtypeid decimal(3),
+primary key(typeid,strongtypeid),
+foreign key(typeid) references type(typeid) on delete cascade,
+foreign key(strongtypeid) references type(typeid) on delete cascade
+);
+
+create table weakagainsttype
+(
+typeid decimal(3),
+weaktypeid decimal(3),
+primary key(typeid,weaktypeid),
+foreign key(typeid) references type(typeid) on delete cascade,
+foreign key(weaktypeid) references type(typeid) on delete cascade
+);
+
+create table state
+(
+pokeid decimal(3),
+pokestate varchar(8),
+primary key(pokeid),
+foreign key(pokeid) references pokemon(pokeid) on delete cascade
+);
+
+create table admin
+(
+username varchar(10),
+password varchar(12),
+primary key(username,password)
+);
+
+create table users
+(
+firstname text(10),
+lastname text(10),
+fullname varchar(21),
+username varchar(10),
+email varchar(25),
+password varchar(10),
+primary key(username)
+);
+
+create table userpoke
+(
+username varchar(10),
+pokeid decimal(3),
+primary key(username,pokeid),
+foreign key(username) references users(username) on delete cascade,
+foreign key(pokeid) references pokemon(pokeid) on delete cascade
+);
